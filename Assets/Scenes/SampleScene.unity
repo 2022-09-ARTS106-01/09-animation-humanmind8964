@@ -181,7 +181,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c70b8e0bc0bfd4409b99cf7e4baf9d02, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f4c8f86b104a24c1d8435cbe76e01d99, type: 3}
   m_Color: {r: 0.43137255, g: 0.8666667, b: 0.9433962, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -397,7 +397,6 @@ GameObject:
   - component: {fileID: 1780271140}
   - component: {fileID: 1780271143}
   - component: {fileID: 1780271142}
-  - component: {fileID: 1780271145}
   - component: {fileID: 1780271144}
   m_Layer: 0
   m_Name: Player
@@ -447,7 +446,7 @@ SpriteRenderer:
   m_SortingLayerID: 472946579
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3c3b7a702707f412f9e36cecc0a71358, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0b4c23a1c687542bf9ee104e334d0dd1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -544,24 +543,20 @@ MonoBehaviour:
   m_ControlsChangedEvent:
     m_PersistentCalls:
       m_Calls: []
-  m_ActionEvents: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5f31056c-2110-4f4e-9446-b70bdaab7c1c
+    m_ActionName: PlayerActionMap/Jump[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 024296dd-d7bb-4a90-8a22-35ad93704529
+    m_ActionName: PlayerActionMap/Movement[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: 
+  m_DefaultActionMap: PlayerActionMap
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &1780271145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1780271139}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbd3d161872c744189e5cdea5043bac4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1788275320
 GameObject:
   m_ObjectHideFlags: 0
@@ -621,7 +616,7 @@ SpriteRenderer:
   m_SortingLayerID: 472946579
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c70b8e0bc0bfd4409b99cf7e4baf9d02, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f4c8f86b104a24c1d8435cbe76e01d99, type: 3}
   m_Color: {r: 0.24705882, g: 0.5176471, b: 0.28627452, a: 1}
   m_FlipX: 0
   m_FlipY: 0
